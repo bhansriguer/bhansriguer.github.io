@@ -203,6 +203,7 @@ function byebye(){
     });
 }
 
+/*
 //sound
 if (annyang) {
 
@@ -236,4 +237,4 @@ if (annyang) {
   // Start listening.
   annyang.start();
 
-}
+}*/

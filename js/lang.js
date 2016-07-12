@@ -253,7 +253,16 @@ $(function () {
         }
     });
 
-    // Set initial language to English
-    set_lang(dictionary.english);
+    var userLang = (navigator.language) ?     
+    navigator.language : navigator.userLanguage;
+    var sel = document.getElementById('lang');
+    if(userLang.includes("ja")){
+        set_lang(dictionary.日本語);
+        sel.selectedIndex = 1;
+    } else {
+        set_lang(dictionary.english);
+        sel.selectedIndex = 0;
+    }
+    
 
 });
