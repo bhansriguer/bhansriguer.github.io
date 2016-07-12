@@ -13,8 +13,8 @@ $(function () {
             "COMPANY" : "SOFTWARE ENGINEER / LANEX",
             "ADDRESS" : "Sendai, Japan",
             "CONTACT_ME" : "Contact Me",
-            "EMAIL" : "Email",
-            "SKYPE" : "Skype",
+            "EMAIL" : "Email: bhans@po.lanex.co.jp",
+            "SKYPE" : "Skype: lanex-bhans",
             "SUMMARY" : "Summary",
             "SUMMARY_DESC" : "Graduated from university with a Bachelor's degree in Information Technology.\n\n \
                 \bHow to be a ROCKSTAR DEVELOPER?\b \n\n \
@@ -127,8 +127,8 @@ $(function () {
             "COMPANY" : "ソフトウェアエンジニア / ラネックス法人",
             "ADDRESS" : "日本、仙台",
             "CONTACT_ME" : "私に連絡",
-            "EMAIL" : "メール",
-            "SKYPE" : "スカイプ",
+            "EMAIL" : "メール: bhans@po.lanex.co.jp",
+            "SKYPE" : "スカイプ: lanex-bhans",
             "SUMMARY": "概要",
             "SUMMARY_DESC" : "情報工学専門して大学を卒業した。\n\n \
                 \bどうやってロックスター開発者になられるのですか？\b\n\n \
