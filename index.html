@@ -29,30 +29,35 @@
         <link href="css/responsive.css" rel="stylesheet">
 
         <!--字体图标cdd-->
-        <link href="css/font.css" rel="stylesheet" type="text/css">
+        
 
         <link rel="stylesheet" href="css/et-style.css" />
 
         <title>Bhans Riguer</title>
     </head>
     <body>
-
         <div class="main">
+            <div class="lang">
+                <select id="lang">
+                    <option>English</option>
+                    <option>日本語</option>
+                </select>
+            </div>
             <div class="content">
 
                 <!--header-->
                 <div class="header clearfix">
                     <div class="avatar">
-                        <a href="javascript:;" class="avatar_pic circle"><em class="circle doing">Punch!</em></a>
+                        <a href="javascript:;" class="avatar_pic circle"><em class="circle doing"><text data-translate="PUNCH"/></em></a>
                         <b class="doing r5">&nbsp;BR&nbsp;</b>
                     </div>
                     <div class="base">
-                        <p class="desc">Hello I'm</p>
-                        <h2>BHANS RIGUER</h2>
-                        <p>SOFTWARE ENGINEER / LANEX CORPORATION</p>
+                        <p class="desc"><text data-translate="INTRO"/></p>
+                        <h2><text data-translate="NAME"/></h2>
+                        <p><text data-translate="COMPANY"/></p>
                         <span>
-                            <p><i aria-hidden="true" data-icon="&#xe047;"></i>Sendai, Japan</p>
-                            <p><a href="javascript:;" class="tel_me"><i aria-hidden="true" data-icon="&#xe040;"></i>Contact Me</a></p>
+                            <p><i aria-hidden="true" data-icon="&#xe047;"></i><text data-translate="ADDRESS"/></p>
+                            <p><a href="javascript:;" class="tel_me"><i aria-hidden="true" data-icon="&#xe040;"></i><text data-translate="CONTACT_ME"/></a></p>
                         </span>
                     </div>
                 </div>
@@ -63,62 +68,51 @@
                     <!--left-->
                     <div class="info_area info_left info_content">
 
-                        <h5>Summary</h5>
-                        <p class="desc">Graduated from university with a Bachelor's degree in Information Technology.<br/><br/>
-                        <b>How to be a ROCKSTAR DEVELOPER?</b><br/><br/>
-                        Get yourself the best possible mentor who's willing to critique your code and teach you how he or she solves problems.  You'll know when you've achieved a decent level when you can legitimately challenge your mentor's opinions and win some arguments.<br/>
-                        Always increase the difficulty and scope of the problems you are trying to solve. Most people don't have 20 years of experience, they have one year of experience repeated 20 times.  Don't be one of them.<br/>
-                        Care about things like documentation, good method or function names, writing extensive tests.  Your code should look professional.<br/>
-                        Scan all the standard libraries so you know what is there.  Then, when you are first using a particular library, learn it backwards and forwards.  If it's written in your language and the source code is available, look at that as well.<br/>
-                        If you don't completely understand something, let that be a spur to go and learn about it. Always dive down deeply.<br/>
-                        Use the best IDE possible for your language. Learn the IDE backwards and forwards.  A good IDE will speed you up tremendously.<br/>
-                        When faced with a new challenge, i.e., say you've never used SOAP/XML before, do extensive research before you start coding.  Search around the internet and or your library to see if you can find the latest and greatest way people are solving that challenge.  Measure twice and cut once.<br/>
-                        Remember that you're usually writing code for someone else's use.  Keep in constant contact with your client.  Manage their expectations, make sure they know that you are on top of everything, demonstrate expertise. Keep the social aspect in mind at all times.<br/>
-                        Trust me, those tips can help ;) <br/>
-                        --------------------------------------------------------------------------------</p>
-                        <p class="desc s1">Developed Health Care Application for Android - Used SVN as version control during the development, roboguice framework that brings the simplicity and ease of Dependency Injection to Android, DAO Manager for SQLite, SOAP.</p>
-                        <p class="desc s2">Java Desktop Application Developer - Developed mapping application, used SVN as a primary version control during the development, Google Maps API.</p>
-                        <p class="desc s3">Android Developer - Developed News Application for Korea, E-Learning applications, ChatBot App.</p>
-                        <p class="desc s4">Developed Social Media Application - Android, PHP, Zend, iOS</p>
-                        <p class="desc s5">Android customization for POS (Custom hardware, software embedded OS)</p>
-                        <p class="desc s6">Software Engineer - Telephony, Desktop, Mobile, Web applications</p>
+                        <h5><text data-translate="SUMMARY"></h5>
+                        <p class="desc"><text data-translate="SUMMARY_DESC"/>
+                        <p class="desc s1" data-translate="SUMMARY_DESCS1"/>
+                        <p class="desc s2" data-translate="SUMMARY_DESCS2"/>
+                        <p class="desc s3" data-translate="SUMMARY_DESCS3"/>
+                        <p class="desc s4" data-translate="SUMMARY_DESCS4"/>
+                        <p class="desc s5" data-translate="SUMMARY_DESCS5"/>
+                        <p class="desc s6" data-translate="SUMMARY_DESCS6"/>
 
-                        <h5>Portfolio</h5>
+                        <h5><text data-translate="PORTFOLIO"/></h5>
                         <ul>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>顧客管理システム(Customer Management System)<em>(C#)</em></h3>
-                                    <p>Desktop application CMS.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_1"/><em>(C#)</em></h3>
+                                    <p data-translate="PORTFOLIO_1_DESC"/>
                                 </div>
                             </li>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>eHealth Mobile<em>(Android)</em></h3>
-                                    <p>Application for hospital staff and patients; Generate appointments, schedules and timetable.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_2"/><em>(Android)</em></h3>
+                                    <p data-translate="PORTFOLIO_2_DESC"/>
                                 </div>
                             </li>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>SanMiguel Territories<em>(J2SE)</em></h3>
-                                    <p>Mapping application tool for describing business territories using GMaps.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_3"/><em>(J2SE)</em></h3>
+                                    <p data-translate="PORTFOLIO_3_DESC"/>
                                 </div>
                             </li>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>Let's Learn English!<em>(Android)</em></h3>
-                                    <p>E-Learning Applications such as Translation, Vocabulary, Dictation, Recording, Interpretation, and Interview type video recording for English, Korean and Chinese languages.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_4"/><em>(Android)</em></h3>
+                                    <p data-translate="PORTFOLIO_4_DESC"/>
                                 </div>
                             </li>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>Talky Bird<em>(Android/PHP)</em></h3>
-                                    <p>ChatBot App for Android and iOS that is using PHP, AIML, and JSON.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_5"/><em>(Android/PHP)</em></h3>
+                                    <p data-translate="PORTFOLIO_5_DESC"/>
                                 </div>
                             </li>
                             <li class="clearfix">
                                 <div class="con">
-                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i>KoreaTimes<em>(Android)</em></h3>
-                                    <p>Mobile news application for South Korea.</p>
+                                    <h3><i aria-hidden="true" data-icon="&#xe023;"></i><text data-translate="PORTFOLIO_6"/><em>(Android)</em></h3>
+                                    <p data-translate="PORTFOLIO_6_DESC"/>
                                 </div>
                             </li>
                         </ul>
@@ -128,16 +122,16 @@
 
                     <!--right-->
                     <div class="info_area info_right info_timeline">
-                        <h5><i aria-hidden="true" data-icon="&#xe00a;"></i>Timeline</h5>
+                        <h5><i aria-hidden="true" data-icon="&#xe00a;"></i><text data-translate="TIMELINE"/></h5>
                         <ul>
                              <li class="clearfix top" id="s6">
                                 <!--list样式-->
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>Lanex Corporation</h3>
-                                    <p>Software Engineer</p>
-                                    <p class="desc">2014.10 - Present</p>
+                                    <h3><text data-translate="TIMELINE_1_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_1_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_1_YR"/></p>
                                 </div>
                             </li>
                             <li class="clearfix" id="s5">
@@ -145,9 +139,9 @@
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>Global Fusion</h3>
-                                    <p>Android Developer</p>
-                                    <p class="desc">2013.10 - 2014.10</p>
+                                    <h3><text data-translate="TIMELINE_2_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_2_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_2_YR"/></p>
                                 </div>
                             </li>
                             <li class="clearfix" id="s4">
@@ -155,9 +149,9 @@
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>Yamba</h3>
-                                    <p>Android Developer</p>
-                                    <p class="desc">2013.6 - 2014.7</p>
+                                    <h3><text data-translate="TIMELINE_3_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_3_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_3_YR"/></p>
                                 </div>
                             </li>
                             <li class="clearfix" id="s3">
@@ -165,9 +159,9 @@
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>iRender Animations Inc.</h3>
-                                    <p>Android Developer</p>
-                                    <p class="desc">2011.11 - 2013.3</p>
+                                    <h3><text data-translate="TIMELINE_4_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_4_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_4_YR"/></p>
                                 </div>
                             </li>
                             <li class="clearfix" id="s2">
@@ -175,9 +169,9 @@
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>San Miguel Corporation</h3>
-                                    <p>Java Desktop Applications Developer</p>
-                                    <p class="desc">2011.7 - 2011.12</p>
+                                    <h3><text data-translate="TIMELINE_5_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_5_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_5_YR"/></p>
                                 </div>
                             </li>
                             <li class="clearfix" id="s1">
@@ -185,21 +179,21 @@
                                 <div class="dot"><b></b></div>
                                 <!--内容-->
                                 <div class="con">
-                                    <h3>Exist</h3>
-                                    <p>Android Developer</p>
-                                    <p class="desc">2010.2 - 2010.9</p>
+                                    <h3><text data-translate="TIMELINE_6_CO"/></h3>
+                                    <p><text data-translate="TIMELINE_6_POS"/></p>
+                                    <p class="desc"><text data-translate="TIMELINE_6_YR"/></p>
                                 </div>
                             </li>
                         </ul>
 
-                        <h5>SKILLSETS</h5>
+                        <h5><text data-translate="SKILLSETS"/></h5>
 
                         <dl class="clearfix">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe000;"></i>Mobile<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe000;"></i><text data-translate="MOBILE"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Android</dt>
+                            <dt><text data-translate="MOBILE_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -217,7 +211,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>J2ME</dt>
+                            <dt><text data-translate="MOBILE_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -235,7 +229,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>NDK</dt>
+                            <dt><text data-translate="MOBILE_3"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -253,7 +247,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>iOS</dt>
+                            <dt><text data-translate="MOBILE_4"/></dt>
                             <dd>
                                 <b></b>
                                 <em></em>
@@ -272,11 +266,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe001;"></i>Web<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe001;"></i><text data-translate="WEB"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Web Service API (RESTful)</dt>
+                            <dt><text data-translate="WEB_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -293,7 +287,7 @@
                                 <em></em>
                             </dd>
                         </dl><dl class="clearfix">
-                            <dt>J2EE</dt>
+                            <dt><text data-translate="WEB_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -310,7 +304,7 @@
                                 <em></em>
                             </dd>
                         </dl><dl class="clearfix">
-                            <dt>HTML</dt>
+                            <dt><text data-translate="WEB_3"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -328,7 +322,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>PHP</dt>
+                            <dt><text data-translate="WEB_4"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -346,70 +340,11 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>CSS</dt>
+                            <dt><text data-translate="WEB_5"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
                                 <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-
-                        <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe002;"></i>Desktop<h6></dt>
-                            <dd></dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>J2SE</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>C#</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>C++</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
                                 <em></em>
                                 <em></em>
                                 <em></em>
@@ -424,65 +359,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe034;;"></i>Frameworks<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe002;"></i><text data-translate="DESKTOP"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>RoboGuice</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>ButterKnife</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>Java/C# DAO</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>Spring</dt>
+                            <dt><text data-translate="DESKTOP_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -500,7 +381,102 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>RoboElectric</dt>
+                            <dt><text data-translate="DESKTOP_2"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="DESKTOP_3"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe034;;"></i><text data-translate="FRAMEWORKS"/><h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="FRAMEWORKS_1"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="FRAMEWORKS_2"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="FRAMEWORKS_3"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="FRAMEWORKS_4"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -518,7 +494,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Selenium/Selendroid</dt>
+                            <dt><text data-translate="FRAMEWORKS_5"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -536,7 +512,25 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Titanium</dt>
+                            <dt><text data-translate="FRAMEWORKS_6"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="FRAMEWORKS_7"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -554,7 +548,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>JSP/JSF</dt>
+                            <dt><text data-translate="FRAMEWORKS_8"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -572,7 +566,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>.NET</dt>
+                            <dt><text data-translate="FRAMEWORKS_9"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -591,11 +585,11 @@
                         </dl>
                         
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe004;"></i>Telephony<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe004;"></i><text data-translate="TELEPHONY"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>FreePBX</dt>
+                            <dt><text data-translate="TELEPHONY_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -613,7 +607,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>ViciDial</dt>
+                            <dt><text data-translate="TELEPHONY_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -631,7 +625,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Asterisk</dt>
+                            <dt><text data-translate="TELEPHONY_3"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -650,11 +644,11 @@
                         </dl>
                         
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe04b;"></i>Version Control<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe04b;"></i><text data-translate="VERSION_CONTROL"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>GIT</dt>
+                            <dt><text data-translate="VERSION_CONTROL_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -672,7 +666,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>SVN</dt>
+                            <dt><text data-translate="VERSION_CONTROL_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -690,7 +684,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Team Foundation Server</dt>
+                            <dt><text data-translate="VERSION_CONTROL_3"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -709,11 +703,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe033;"></i>Scripting<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe033;"></i><text data-translate="SCRIPTING"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>VBScript</dt>
+                            <dt><text data-translate="SCRIPTING_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -731,7 +725,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>bash/sh</dt>
+                            <dt><text data-translate="SCRIPTING_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -749,7 +743,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Python</dt>
+                            <dt><text data-translate="SCRIPTING_3"/></dt>
                             <dd>
                                 <b></b>
                                 <em></em>
@@ -768,11 +762,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe007;"></i>Databases<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe007;"></i><text data-translate="DATABASE"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>MySQL</dt>
+                            <dt><text data-translate="DATABASE_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -790,7 +784,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>MSSQL</dt>
+                            <dt><text data-translate="DATABASE_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -808,7 +802,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>SQLite3</dt>
+                            <dt><text data-translate="DATABASE_3"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -827,11 +821,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe039;"></i>Continous Integration<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe039;"></i><text data-translate="CONTINUOUS_INTEGRATION"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Jenkins</dt>
+                            <dt><text data-translate="CONTINUOUS_INTEGRATION_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -850,11 +844,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe01d;"></i>Project Management<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe01d;"></i><text data-translate="PROJECT_MANAGEMENT"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>REDMINE</dt>
+                            <dt><text data-translate="PROJECT_MANAGEMENT_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -872,7 +866,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>JIRA</dt>
+                            <dt><text data-translate="PROJECT_MANAGEMENT_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -891,11 +885,11 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe03d;"></i>Bug Tracker<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe03d;"></i><text data-translate="BUG_TRACKER"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Mantis</dt>
+                            <dt><text data-translate="BUG_TRACKER_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -913,7 +907,7 @@
                             </dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Taiga</dt>
+                            <dt><text data-translate="BUG_TRACKER_2"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -923,29 +917,6 @@
                                 <em></em>
                                 <em></em>
                                 <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                                <em></em>
-                            </dd>
-                        </dl>
-
-                        <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe046;"></i>AIML<h6></dt>
-                            <dd></dd>
-                        </dl>
-                        <dl class="clearfix">
-                            <dt>A.L.I.C.E.</dt>
-                            <dd>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
-                                <b></b>
                                 <em></em>
                                 <em></em>
                                 <em></em>
@@ -955,11 +926,34 @@
                         </dl>
 
                         <dl class="clearfix mt20">
-                            <dt><h6><i aria-hidden="true" data-icon="&#xe036;"></i>Design Tools<h6></dt>
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe046;"></i><text data-translate="AIML"/><h6></dt>
                             <dd></dd>
                         </dl>
                         <dl class="clearfix">
-                            <dt>Adobe Photoshop</dt>
+                            <dt><text data-translate="AIML_1"/></dt>
+                            <dd>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <b></b>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                                <em></em>
+                            </dd>
+                        </dl>
+
+                        <dl class="clearfix mt20">
+                            <dt><h6><i aria-hidden="true" data-icon="&#xe036;"></i><text data-translate="DESIGN_TOOLS"/><h6></dt>
+                            <dd></dd>
+                        </dl>
+                        <dl class="clearfix">
+                            <dt><text data-translate="DESIGN_TOOLS_1"/></dt>
                             <dd>
                                 <b></b>
                                 <b></b>
@@ -994,12 +988,12 @@
             <a href="javascript:;" class="tip_close" aria-hidden="true" data-icon="&#xe01a;"></a>
             <div class="tip_avatar_con">
                 <div class="tip_right">
-                    <p class="en mt">What's up?! I'm</p>
-                    <h2>Bhans Riguer</h2>
-                    <p>Software Engineer / Lanex</p>
-                    <p class="mt20">Contact Information</p>                 
-                    <p><i aria-hidden="true" data-icon="&#xe032;"></i>Email: bhans@po.lanex.co.jp</p>
-                    <p><i aria-hidden="true" data-icon="&#xe049;"></i>Skype: lanex-bhans</p>
+                    <p class="en mt"><text data-translate="INTRO"/></p>
+                    <h2><text data-translate="NAME"/></h2>
+                    <p><text data-translate="COMPANY"/></p>
+                    <p class="mt20"><text data-translate="CONTACT_ME"/></p>
+                    <p><i aria-hidden="true" data-icon="&#xe032;"></i><text data-translate="EMAIL"/>: bhans@po.lanex.co.jp</p>
+                    <p><i aria-hidden="true" data-icon="&#xe049;"></i><text data-translate="SKYPE"/>: lanex-bhans</p>
                     <!-- <p><i aria-hidden="true" data-icon="&#xe00b;"></i>17000000000</p>
                     <p><i aria-hidden="true" data-icon="&#xe066;"></i>微信名称</p> -->
                     <p class="mt20"><span class="emailqr"></span></p>
@@ -1033,6 +1027,9 @@
 
         <!--effect-->
         <script type="text/javascript" src="js/common.js"></script>
+
+        <!--lang-->
+        <script type="text/javascript" src="js/lang.js"></script>
 
     </body>
 </html>
