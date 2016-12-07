@@ -63,7 +63,7 @@ DEFINE("SUMMARY_DESC","情報工学専門して大学を卒業した。<br/><br/
 "MOBILE_2" : "J2ME"
 "MOBILE_3" : "NDK"
 "WEB" : "ウェブ"
-"WEB_1" : "WebサービスAPI（RESTfulな）",
+"WEB_1" : "WebサービスAPI（RESTful）",
 "WEB_2" : "J2EE",
 "WEB_3" : "HTML",
 "WEB_4" : "PHP",
@@ -110,28 +110,4 @@ DEFINE("SUMMARY_DESC","情報工学専門して大学を卒業した。<br/><br/
 "AIML_1" : "A.L.I.C.E.",
 "DESIGN_TOOLS" : "設計ツール",
 "DESIGN_TOOLS_1" : "Adobe Photoshop",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
