@@ -50,7 +50,7 @@ $(function () {
             "TIMELINE" : "TimeLine",
             "TIMELINE_1_CO" : "Lanex Corporation",
             "TIMELINE_1_POS" : "Software Engineer",
-            "TIMELINE_1_YR" : "2014.10 - Present",
+            "TIMELINE_1_YR" : "2014.10 - 2019.09",
             "TIMELINE_2_CO" : "Global Fusion",
             "TIMELINE_2_POS" : "Android Developer",
             "TIMELINE_2_YR" : "2013.10 - 2014.10",
