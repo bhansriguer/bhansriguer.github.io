@@ -10,11 +10,11 @@ $(function () {
             "PUNCH" : "PUNCH!",
             "INTRO": "Hello I'm",
             "NAME": "BHANS RIGUER",
-            "COMPANY" : "SOFTWARE ENGINEER / LANEX",
-            "ADDRESS" : "Sendai, Japan",
+            "COMPANY" : "SOFTWARE ENGINEER",
+            "ADDRESS" : "Cebu, Philippines",
             "CONTACT_ME" : "Contact Me",
-            "EMAIL" : "Email: bhans@po.lanex.co.jp",
-            "SKYPE" : "Skype: lanex-bhans",
+            "EMAIL" : "Email: bhans.riguer@gmail.com",
+            "SKYPE" : "Skype: bhans.riguer",
             "SUMMARY" : "Summary",
             "SUMMARY_DESC" : "Graduated from university with a Bachelor's degree in Information Technology.\n\n \
                 \bHow to be a ROCKSTAR DEVELOPER?\b \n\n \
